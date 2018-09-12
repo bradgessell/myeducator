@@ -4,7 +4,6 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -15,12 +14,15 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
+          <a class="page-link mt-2" href="http://myeducator.com/account/login">Login</a>
+          <a class="page-link mt-2" href="../about/">About</a>
+          <a class="page-link mt-2" href="../subject-areas/">Catalog</a>
+        <!-- {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link mt-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
-        {% endfor %}
-        <a class="page-link" href="http://myeducator.com/account/login">Login</a>
+        {% endfor %} -->
+
       </div>
     </nav>
 

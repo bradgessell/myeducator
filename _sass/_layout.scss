@@ -3,9 +3,8 @@
  */
 .site-header {
     border-top: 5px solid $tomato-color;
-    border-bottom: 1px solid $brand-color;
+    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -37,8 +36,10 @@
     }
 
     .page-link {
-        color: $background-color;
+        color: $brand-color;
         line-height: $base-line-height;
+        float: right;
+        border: none;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -96,7 +97,10 @@
     }
 }
 
-
+.card:hover {
+    background-color: $grey-color-light;
+    text-decoration: none;
+}
 
 /**
  * Site footer
