@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -7,7 +7,6 @@ permalink: /about/
 ## High Quality Content
 
 Written by some of the most well-known and respected academics and researchers in their respective fields, myeducator courseware is designed to be used anywhere from trade schools and community colleges to the most prestigious graduate programs.
-
 
 ## Full Interactive Text
 
