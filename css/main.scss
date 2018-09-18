@@ -8,7 +8,7 @@
 // Our variables
 $title-font-family: "Montserrat", sans-serif;
 $base-font-family: "PT Serif", serif, Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -23,14 +23,19 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$teal-color:        #19D3C5;
-$tomato-color:        #FF5C35;
+$teal-color:       #19D3C5;
+$teal-color-light: lighten($teal-color, 5%);
+$teal-color-dark:  darken($teal-color, 5%);
+
+$tomato-color:      #FF5C35;
+$tomato-color-dark: darken($tomato-color, 5%);
+$tomato-color-light:lighten($tomato-color, 10%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1200px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        1200px;
 
 
 

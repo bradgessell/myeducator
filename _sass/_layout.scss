@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $tomato-color;
+    border-top: 5px solid $teal-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -97,7 +97,7 @@
     }
 }
 
-.card:hover {
+.catalog-card:hover {
     background-color: $grey-color-light;
     text-decoration: none;
 }
@@ -106,7 +106,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $brand-color;
+    border-top: 1px solid $teal-color;
     padding: $spacing-unit 0;
 }
 
