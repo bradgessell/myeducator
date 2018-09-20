@@ -37,7 +37,10 @@ $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        1200px;
 
-
+$main-background-image: url("../assets/img/paper2.jpg");
+$blue-background-image: url("/assets/img/backgrounds/blue-background.png");
+$tomato-background-image: url("/assets/img/backgrounds/tomato-background.png");
+$teal-background-image: url("/assets/img/backgrounds/teal-background.png");
 
 // Use media queries like this:
 // @include media-query($on-palm) {

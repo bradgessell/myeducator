@@ -25,7 +25,51 @@ body {
     font-kerning: normal;
 }
 
+#main-background {
+    background-image: $main-background-image;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    color: $background-color;
+}
 
+#main-background h1,
+#main-background h2 {
+    color: $grey-color-dark;
+}
+
+#main-background h1 {
+    font-size: 3em;
+}
+
+#main-background h2 {
+    font-size: 1.5em;
+}
+
+
+.blue-background,
+.tomato-background,
+.teal-background {
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.blue-background {
+    background-image: $blue-background-image;
+    background-color: $brand-color;
+}
+
+.tomato-background {
+    background-image: $tomato-background-image;
+    background-color: $tomato-color;
+}
+
+.teal-background {
+    background-image: $teal-background-image;
+    background-color: $teal-color;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -110,7 +154,7 @@ a.tomato-button:hover {
  */
 
 .horizontal-line {
-    height: 5px;
+    height: 1px;
     border: none;
 }
 
