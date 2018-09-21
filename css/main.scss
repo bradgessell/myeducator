@@ -17,11 +17,14 @@ $spacing-unit:     30px;
 
 $text-color:       #666;
 $background-color: #ffffff;
-$brand-color:      #004876;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$brand-color:      #004876;
+$brand-color-light:lighten($brand-color, 5%);
+$brand-color-dark: darken($brand-color, 5%);
 
 $teal-color:       #19D3C5;
 $teal-color-light: lighten($teal-color, 5%);

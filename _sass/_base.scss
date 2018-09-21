@@ -53,7 +53,7 @@ body {
 .tomato-background,
 .teal-background {
     background-repeat: no-repeat;
-    padding: 100px;
+    // padding: 100px;
 }
 
 .blue-background {
@@ -128,9 +128,36 @@ h3, h4, h5, h6 {
  * Buttons
  */
 
+.me-button {
+    padding: 12px 25px 12px 25px;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: $title-font-family;
+    font-size: 18px;
+}
+
 .tomato-button {
-    // background-color: $tomato-color;
     background-image: linear-gradient(to right, $tomato-color-dark, $tomato-color);
+}
+
+.tomato-button .tomato-button-text {
+    color: white;
+}
+
+a.tomato-button:hover {
+    background-color: $tomato-color-light;
+}
+
+.tomato-button-inverse {
+    border: 1px solid $tomato-color;
+}
+
+.tomato-button-inverse .tomato-button-text {
+    color: $tomato-color
+}
+
+.tomato-button-inverse {
     padding: 12px 25px 12px 25px;
     text-align: center;
     border-radius: 3px;
@@ -138,17 +165,16 @@ h3, h4, h5, h6 {
     font-family: $title-font-family;
 }
 
-.tomato-button .tomato-button-text {
-    color: white;
-    font-size: 18px;
+.tomato-button-inverse:hover {
+    background-color: $grey-color-light
 }
-
-a.tomato-button:hover {
-    background-color: $tomato-color-light;
-}
+/*
+END BUTTONS
+*/
 .main-background {
     background-color: #f5f5f5;
 }
+
 /**
  * Lines
  */
