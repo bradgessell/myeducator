@@ -48,6 +48,12 @@ body {
     font-size: 1.5em;
 }
 
+.dull-blue-background {
+    background-color: RGBA(0, 72, 118, .25);
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
 
 .blue-background,
 .tomato-background,
@@ -137,6 +143,10 @@ h3, h4, h5, h6 {
     font-size: 18px;
 }
 
+a.me-button:hover {
+    text-decoration: none;
+}
+
 .tomato-button {
     background-image: linear-gradient(to right, $tomato-color-dark, $tomato-color);
 }
@@ -147,6 +157,7 @@ h3, h4, h5, h6 {
 
 a.tomato-button:hover {
     background-color: $tomato-color-light;
+    text-decoration: none;
 }
 
 .tomato-button-inverse {
