@@ -70,6 +70,8 @@ body {
 .tomato-background {
     background-image: $tomato-background-image;
     background-color: $tomato-color;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 .teal-background {
@@ -184,6 +186,15 @@ END BUTTONS
 */
 .main-background {
     background-color: #f5f5f5;
+}
+
+.social-link {
+    font-size: 18px;
+    color: $brand-color;
+}
+
+a i.social-link:hover {
+    text-decoration: none;
 }
 
 /**
