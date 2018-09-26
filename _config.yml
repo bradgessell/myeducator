@@ -9,7 +9,7 @@
 title: myeducator
 email: support@myeducator.com
 description: > # this means to ignore newlines until "baseurl:"
-  Higher education learning resources for business school instructors.
+  Learning resources for higher education instructors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://myeducator.com" # the base hostname & protocol for your site
 twitter_username: myeducatorllc
