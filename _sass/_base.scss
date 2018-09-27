@@ -158,7 +158,7 @@ a.me-button:hover {
 }
 
 a.tomato-button:hover {
-    background-color: $tomato-color-light;
+    background-image: linear-gradient(to left, $tomato-color-dark, $tomato-color);
     text-decoration: none;
 }
 
